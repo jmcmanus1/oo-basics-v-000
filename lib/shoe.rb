@@ -7,7 +7,6 @@ class Shoe
 
   def condition(condition)
     @condition = condition
-    @condition = "old"
   end
 
   def condition
