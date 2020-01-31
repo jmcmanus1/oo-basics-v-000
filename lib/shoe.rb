@@ -9,7 +9,7 @@ class Shoe
     @condition = condition
   end
 
-  def condition 
+  def condition
     @condition
   end
 
