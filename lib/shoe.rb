@@ -5,12 +5,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
-
-  def condition
-    condition = "old"
-    @condition = condition
-  end
-
+  
   def cobble
     if condition == "old"
       condition = "new"
