@@ -10,7 +10,7 @@ class Shoe
     condition = "old"
     @condition = condition
   end
-  
+
   def cobble
     if condition == "old"
       condition = "new"
